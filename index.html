@@ -2,76 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Project: Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="top">
-        <div class="navigation">
-            <div class="left">Header Logo</div>
-            <div class="right">
-                <ul class="nav-list">
+
+    <header>
+        <section class="top">
+            <div class="logo">Header Logo</div>
+            <nav>
+                <ul>
                     <li>header link one</li>
                     <li>header link two</li>
                     <li>header link three</li>
                 </ul>
-            </div>        
-        </div>
-        <div class="splash">
-            <div class="left">
-                <h1 class="mainText">This website is awesome</h1>
-                <p class="secondaryText">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="btnTop">Sign up</button>
+            </nav>
+        </section>
+        <section class="splash">
+            <div class="messageContainer">
+                <div><h1>This website is awesome</h1></div>
+                <div><p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p></div>
+                <div><button class="btn-signup">Sign up</button></div>
             </div>
-            <div class="right">
-                <div class="imageholder1">this is a placeholder for an image</div>
+            <div class="imageContainer">
+                <div><span>this is a placeholder for an image</span></div>
             </div>
-        </div>
-    </div>
-    <div class="infoSection">
-        <div class="infoHeader">Some random information.</div>
-        <div class="infoImageSection">
-            <div class="imagebox">
-                <div class="imageholder2">                
-                </div>
-                <p class="infoText">this is some subtext under an illustration or image    </p>
-            </div>  
-            <div class="imagebox">
-                <div class="imageholder2">                
-                </div>
-                <p class="infoText">this is some subtext under an illustration or image    </p>
-            </div>  
-            <div class="imagebox">
-                <div class="imageholder2">                
-                </div>
-                <p class="infoText">this is some subtext under an illustration or image    </p>
-            </div>  
-            <div class="imagebox">
-                <div class="imageholder2">                
-                </div>
-                <p class="infoText">this is some subtext under an illustration or image    </p>
-            </div>  
-        </div>
-    </div>
-    <div class="quoteSection">
-        <em>This is an inspiring quote, or a testimonial from a customer.
-            Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it
-            looks nice.
-        </em>
-        <p class="quoteSignature">- Thor, God of Thunder</p>
-    </div>
+        </section>
+    </header>
 
-    <div class="actionSection">
-        <div class="left">
-            <h1 class="actionHeader">Call to action! It's time!</h1>
-            <p class="actionText">Sign up for our product by clicking the buttoin right over there!</p>
+    <section class="gallery">
+        <div><h2>Some random information.</h2></div>
+        <div class="imageGroup">
+            <div>
+                <div class="box"></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+            </div>
+            <div>
+                <div class="box"></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+            </div>
+            <div>
+                <div class="box"></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+            </div>
+            <div>
+                <div class="box"></div>
+                <div><p>this is some subtext under an illustration or image</p></div>
+            </div>
         </div>
-        <div class="right">
-            <button class="btnBottom">Sign up</button>
+    </section>
+
+    <section class="quote">
+        <div class="message">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+        <div class="author">-Thor, God of Thunder</div>
+    </section>
+
+    <section class="signup">
+        <div class="blueContainer">
+            <div>
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div><button>Sign up</button></div>
         </div>
-    </div>
-    <div class="footerSection">Copyright @ The Odin Project</div>
+    </section>
+    
+    
+    <footer>Copyright © The Odin Project 2021</footer>
+    
 </body>
 </html>

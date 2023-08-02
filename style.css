@@ -1,0 +1,204 @@
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+
+/* set font styles */
+header, footer{
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+nav, h2, p, span {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* set positions and other attributes */
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 200px 160px 200px;
+}
+
+header .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 8px;
+}
+
+header .splash {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 50px;
+}
+
+header .messageContainer {
+    padding-top: 64px;
+    width: 45%;
+}
+
+header .messageContainer div {
+    padding: 4px 0px 4px 0px;
+}
+header .messageContainer h1 {
+    margin: 0;
+}
+
+header .messageContainer p {
+    margin: 0;
+}
+header .messageContainer button {
+    margin: 0;
+    padding: 6px 30px;
+    background-color: #3B82F6;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 6px;
+    border:none;
+    color: #E5E7EB;
+}
+
+header .imageContainer {
+    flex-grow: 1;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center   ;
+    align-items:flex-end;
+}
+
+header .imageContainer div {
+    padding-top: 120px;
+    background-color: #6D747D;
+    text-align: center;
+    min-height: 120px;
+    min-width: 524px;
+    flex-shrink: 0;
+}
+
+section.gallery {
+    padding-bottom: 100px;
+}
+
+section.gallery h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+section.gallery p {
+    color: #1F2937;
+    text-align: center;
+}
+
+.imageGroup { 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.imageGroup > div {
+    padding: 13px;
+}
+
+.box {
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border:#3B82F6 solid 4px;
+    border-radius: 14px;
+}
+
+section.quote {
+    padding: 80px 0 80px 0;
+    background-color: #E5E7EB;
+}
+
+section.quote > div {
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+section.quote .message {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+section.quote .author {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: end;
+}
+
+section.signup{
+    margin: auto;
+    width: 1000px;
+    padding: 80px 0 80px 0;
+}
+
+section.signup .blueContainer {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #3B82F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.signup .blueContainer h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+section.signup .blueContainer p {
+    margin: 0;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+section.signup .blueContainer button {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 6px 30px;
+    background-color: #3B82F6;
+    border-radius: 6px;
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    padding: 40px 0 40px 0;
+    font-size: 18px;
+    color: #F9FAF8;
+    text-align: center;
+}
