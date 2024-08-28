@@ -1,12 +1,3 @@
-# Project-Landing-Page
-
-
-A basic HTML project on the Odin Project at https://www.theodinproject.com/lessons/foundations-landing-page. 
-
-
-
-You may check the live page at https://victorbenedict.github.io/Project-Landing-Page/
-
 # Landing-Page
 
 - A clone landing page made in vanilla HTML, CSS, and JavaScript.
